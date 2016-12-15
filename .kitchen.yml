@@ -16,7 +16,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[bcs-brightbox-ruby::default]
+      - recipe[bcs_brightbox_ruby::default]
     attributes:
       bcs_user:
         group:

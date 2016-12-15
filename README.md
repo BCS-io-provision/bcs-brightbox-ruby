@@ -1,4 +1,4 @@
-# bcs-brightbox-ruby
+# bcs_brightbox_ruby
 
 Installs Ruby onto a system
 
