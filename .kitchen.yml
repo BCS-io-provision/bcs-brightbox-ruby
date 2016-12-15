@@ -6,10 +6,21 @@ provisioner:
   name: chef_solo
 
 platforms:
-  - name: ubuntu-12.04
-  - name: centos-6.4
+  - name: ubuntu-14.04
+    run_list:
+      - recipe[apt::default]
+  - name: ubuntu-16.04
+    run_list:
+      - recipe[apt::default]
 
 suites:
   - name: default
     run_list:
+      - recipe[bcs-brightbox-ruby::default]
     attributes:
+      admin:
+        group:
+          name: 'sudo'
+        user:
+          name: 'vagrant'
+          path: '/home/vagrant'
