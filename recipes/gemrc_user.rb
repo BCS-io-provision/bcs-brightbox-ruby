@@ -13,8 +13,8 @@ home = node['bcs_user']['user']['path']
 # Add the user specific file
 #
 template "#{home}/.gemrc" do
-  user "#{user}"
-  group  "#{group}"
+  user user
+  group  group
   source 'gemrc_user.erb'
   mode 00644
 end
