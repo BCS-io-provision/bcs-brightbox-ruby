@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.0] -  2016-12-15
+### Changed
+  - bcs-brightbox-ruby => bcs_brightbox_ruby
+    - chef prefers underscores https://docs.chef.io/ruby.html
+
 ## [0.0.4] -  2016-08-16
 Ruby 2.2 => 2.3
 
