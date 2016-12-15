@@ -6,9 +6,9 @@
 #      - I tried to make it put it under user but failed to get it to
 #
 
-group = node['admin']['group']['name']
-user = node['admin']['user']['name']
-home = node['admin']['user']['path']
+group = node['bcs_user']['group']['name']
+user = node['bcs_user']['user']['name']
+home = node['bcs_user']['user']['path']
 
 # Add the user specific file
 #

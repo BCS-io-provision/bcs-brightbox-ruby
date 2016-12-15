@@ -18,7 +18,7 @@ suites:
     run_list:
       - recipe[bcs-brightbox-ruby::default]
     attributes:
-      admin:
+      bcs_user:
         group:
           name: 'sudo'
         user:
