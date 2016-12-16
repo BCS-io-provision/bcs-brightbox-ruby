@@ -17,10 +17,3 @@ suites:
   - name: default
     run_list:
       - recipe[bcs_brightbox_ruby::default]
-    attributes:
-      bcs_user:
-        group:
-          name: 'sudo'
-        user:
-          name: 'vagrant'
-          path: '/home/vagrant'

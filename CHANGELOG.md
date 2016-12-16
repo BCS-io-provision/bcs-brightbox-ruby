@@ -6,6 +6,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
   - bcs-brightbox-ruby => bcs_brightbox_ruby
     - chef prefers underscores https://docs.chef.io/ruby.html
+  - removed gem installation of backup - leave it to backup
+  - removed .gemrc creation - really a bcs_user requirement
 
 ## [0.0.4] -  2016-08-16
 Ruby 2.2 => 2.3
