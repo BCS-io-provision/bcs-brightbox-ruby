@@ -4,7 +4,7 @@ maintainer_email 'richard.wigley@github'
 license          'All rights reserved'
 description      'Installs/Configures bcs_brightbox_ruby'
 long_description 'Installs/Configures bcs_brightbox_ruby'
-version          '1.0.0'
+version          '1.0.1'
 
 source_url       'git@github.com:BCS-io-provision/bcs_brightbox_ruby' if respond_to?(:source_url)
 issues_url       'git@github.com:BCS-io-provision/bcs_brightbox_ruby/issues' if respond_to?(:issues_url)
