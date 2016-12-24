@@ -1,0 +1,6 @@
+Lint/RescueException:
+  Exclude:
+    - 'Rakefile'
+
+Metrics/LineLength:
+  Enabled: false
