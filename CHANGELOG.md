@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
-## Unreleased
+## [2.0.0] - 2016-12-31
 ### breaking changes
   - bcs_brightbox_ruby => bcs_ruby - no need to know which ruby installer I am using
 
