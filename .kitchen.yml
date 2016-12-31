@@ -16,4 +16,4 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[bcs_brightbox_ruby::default]
+      - recipe[bcs_ruby::default]

@@ -2,6 +2,5 @@
 # Attributes to override default brightbox-ruby
 #
 
-default['brightbox-ruby']['version'] = '2.3'
-default['brightbox-ruby']['gems'] = ['bundler', 'rake', 'rubygems-bundler']
-default['brightbox-ruby']['install_ruby_switch'] = false
+default['ruby']['version'] = '2.3'
+default['ruby']['gems'] = ['bundler', 'rake', 'rubygems-bundler']
