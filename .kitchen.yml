@@ -7,13 +7,13 @@ provisioner:
 
 platforms:
   - name: ubuntu-14.04
-    run_list:
-      - recipe[apt::default]
   - name: ubuntu-16.04
-    run_list:
-      - recipe[apt::default]
 
 suites:
   - name: default
+    attributes:
+      ruby:
+        version: '2.2'
     run_list:
+      - recipe[apt::default]
       - recipe[bcs_ruby::default]
