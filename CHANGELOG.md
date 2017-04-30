@@ -1,6 +1,16 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
+## [2.1.0] - 2017-04-30
+### Changed
+  - License changed to MIT
+  - Default Ruby 2.3.0
+  - Chef 12.5+ 
+  - Supports Chef 13.0
+
+### Removed 
+  - rubygems-bundler not required for ruby >= 2.2.0
+
 ## [2.0.0] - 2016-12-31
 ### breaking changes
   - bcs_brightbox_ruby => bcs_ruby - no need to know which ruby installer I am using
