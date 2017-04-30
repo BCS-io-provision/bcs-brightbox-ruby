@@ -4,7 +4,7 @@ maintainer_email 'richard.wigley@github'
 license          'MIT'
 description      'Installs/Configures bcs_ruby'
 long_description 'Installs/Configures bcs_ruby'
-version          '2.0.0'
+version          '2.1.0'
 
 source_url       'git@github.com:BCS-io-provision/bcs_ruby' if respond_to?(:source_url)
 issues_url       'git@github.com:BCS-io-provision/bcs_ruby/issues' if respond_to?(:issues_url)
