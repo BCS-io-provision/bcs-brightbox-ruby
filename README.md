@@ -6,9 +6,12 @@ Installs Ruby onto a system. Underneath the system using brightbox Ruby. [bright
 
 ## Requirements
 
-* Chef 12.0
-* Ruby >= 2.0.0
-* Ubuntu LTS 14.04+
+| Requirement | Tested Version                                                  |
+| ----------- | ----------------------------------------------------------------|
+| Chef        | 12.5+                                                           |
+| Ruby        | 2.3.0+                                                          |
+| Ubuntu      | 14.04+                                                          |
+
 
 
 ### Attributes
