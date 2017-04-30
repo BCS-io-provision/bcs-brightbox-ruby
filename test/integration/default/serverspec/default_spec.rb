@@ -13,6 +13,6 @@ describe 'bcs_ruby::default' do
   end
 
   describe command('ruby -v') do
-    its(:stdout) { should match(/ruby 2.2/) }
+    its(:stdout) { should match(/ruby 2.3/) }
   end
 end

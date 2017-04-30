@@ -13,7 +13,7 @@ suites:
   - name: default
     attributes:
       ruby:
-        version: '2.2'
+        version: '2.3'
     run_list:
       - recipe[apt::default]
       - recipe[bcs_ruby::default]
