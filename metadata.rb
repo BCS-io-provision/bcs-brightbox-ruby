@@ -1,7 +1,7 @@
 name             'bcs_ruby'
 maintainer       'Richard Wigley '
 maintainer_email 'richard.wigley@github'
-license          'All rights reserved'
+license          'MIT'
 description      'Installs/Configures bcs_ruby'
 long_description 'Installs/Configures bcs_ruby'
 version          '2.0.0'
