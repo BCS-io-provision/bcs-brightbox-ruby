@@ -1,5 +1,5 @@
 #
-# Attributes to override default brightbox-ruby
+# Attributes to set ruby
 #
 
 default['ruby']['version'] = '2.3'
