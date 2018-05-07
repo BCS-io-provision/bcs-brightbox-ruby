@@ -10,13 +10,19 @@ provisioner:
 
 platforms:
   - name: ubuntu-14.04
-  - name: ubuntu-16.04
-
-suites:
-  - name: default
     attributes:
       ruby:
         version: '2.3'
+  - name: ubuntu-16.04
+    attributes:
+      ruby:
+        version: '2.3'
+  - name: ubuntu-18.04
+    attributes:
+      ruby:
+        version: '2.5'
+suites:
+  - name: default
     run_list:
       - recipe[apt::default]
       - recipe[bcs_ruby::default]
