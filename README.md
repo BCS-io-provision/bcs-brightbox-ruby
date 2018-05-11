@@ -21,8 +21,8 @@ Installs Ruby onto a system. Underneath the system using brightbox Ruby. [bright
 
 | Attribute           | Description                   | Default                                 |
 | ------------------- | ----------------------------- | ----------------------------------------|
-| ['ruby']['version'] | Ruby Version to install       | '2.3'                                   |
-| ['ruby']['gems']    | Gems to install for this ruby | ['bundler', 'rake', 'rubygems-bundler'] |
+| ['bcs_ruby']['version'] | Ruby Version to install       | '2.3'                                   |
+| ['bcs_ruby']['gems']    | Gems to install for this ruby | ['bundler', 'rake', 'rubygems-bundler'] |
 
 ## Author
 

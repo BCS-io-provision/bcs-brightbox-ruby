@@ -2,5 +2,5 @@
 # Attributes to set ruby
 #
 
-default['ruby']['version'] = '2.3'
-default['ruby']['gems'] = ['bundler', 'rake']
+default['bcs_ruby']['version'] = '2.3'
+default['bcs_ruby']['gems'] = ['bundler', 'rake']

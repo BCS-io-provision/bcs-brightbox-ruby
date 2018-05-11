@@ -26,8 +26,8 @@ dependencies.each do |pack|
   package pack
 end
 
-node.default['brightbox-ruby']['version'] = node['ruby']['version']
-node.default['brightbox-ruby']['gems'] = node['ruby']['gems']
+node.default['brightbox-ruby']['version'] = node['bcs_ruby']['version']
+node.default['brightbox-ruby']['gems'] = node['bcs_ruby']['gems']
 node.default['brightbox-ruby']['install_ruby_switch'] = false
 
 include_recipe 'brightbox-ruby::default'

@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
+## Master
+### Change
+  - attributes from 'ruby' to 'bcs_ruby'
+
 ## [2.2.0] - 2018-05-08
 ### Added
   - Support for Ubuntu 18.04
